@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.cache/
+
+# Holds GITHUB_TOKEN for the data pipeline; must never be committed.
+.env
+.env.local
+
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
